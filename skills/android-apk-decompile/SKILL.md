@@ -132,3 +132,6 @@ cp apktool-out/apktool.yml $output_dir/
 `rm -rf <work>/jadx-out <work>/apktool-out`（**保留原始 APK 不动**），向用户汇报最终目录树与报告结论。
 
 **Success criteria**: 中间目录已删除；APK 原件完好；最终结构已展示给用户。
+
+## 后续
+本技能只负责产出可读源码工程。若用户接着要查某个功能的调用链、开关、接口、缓存或弹窗展示，转入同仓库的 `android-feature-investigation` 技能（`skills/android-feature-investigation/SKILL.md`），不要在本技能内继续分析业务逻辑。

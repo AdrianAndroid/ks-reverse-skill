@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android 功能分析"
+  short_description: "分析 Android APK 功能调用链、开关、接口、缓存和弹窗展示"
+  default_prompt: "分析这个 Android 功能的调用链、配置与验证方式，并给出可点击代码位置。"
